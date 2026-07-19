@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Galaxy Music| - Official Music Platform</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header class="header">
+
+<nav class="navbar">
+
+<div class="logo">
+GALAXY
+<span>MUSIC.COM</span>
+</div>
+
+<ul class="nav-links">
+<li><a href="#home">Home</a></li>
+<li><a href="https://sofmast.github.io/Natumfwe_Music/" target="_blank">Music</a></li>
+<li><a href="#videos">Videos</a></li>
+<li><a href="#gallery">News</a></li>
+<li><a href="#gallery">Trending</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+
+<button class="menu-btn">☰</button>
+
+</nav>
+
+</header>
+
+<!-- HERO -->
+<section class="hero" id="home">
+
+<div class="hero-content">
+
+<div class="verified">
+✓ Verified Music Platform
+</div>
+
+<h1>
+Galaxy
+<span>Music</span>
+</h1>
+
+<p>
+One of Zambia's fastest music distribution platforms,
+bringing authentic  powerful Music,
+and unforgettable melodies.
+</p>
+
+<div class="hero-buttons">
+<a href="music.html" class="btn primary">
+▶ Stream Music
+</a>
+
+<a href="#" class="btn secondary">
+⬇ Latest Download
+</a>
+</div>
+
+<div class="stats">
+
+<div>
+<h3>500K+</h3>
+<p>Streams</p>
+</div>
+
+<div>
+<h3>20+</h3>
+<p>Tracks</p>
+</div>
+
+<div>
+<h3>50K+</h3>
+<p>Fans</p>
+</div>
+
+</div>
+
+</div>
+
+<div class="hero-image">
+
+<img
+src="images/bmc_profile.jpg"
+alt="Best Male Child">
+
+</div>
+
+</section>
+
+<!-- FEATURED SONG -->
+<section class="featured">
+
+<div class="section-title">
+<h2>Trending Release</h2>
+<p>Currently making waves across Zambia</p>
+</div>
+
+<div class="featured-card">
+
+<img
+src="images/kabuku.jpg"
+alt="Song Cover">
+
+<div class="song-info">
+
+<h3>Ka Buku | Let me Know you</h3>
+
+<p>Artist: BMC</p>
+
+<p>Producer: Galaxy Music - Jkabs</p>
+
+<div class="song-actions">
+
+<button id="playBtn">
+▶ Play
+</button>
+
+<a
+href="music/BMC_Ka_Buku-prod-by-DJ kabs.mp3"
+download
+class="download-btn">
+⬇ Download
+</a>
+
+</div>
+
+<audio id="audioPlayer">
+<source src="music/BMC_Ka_Buku-prod-by-DJ kabs.mp3">
+</audio>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- MUSIC LIBRARY -->
+<section id="music" class="music-library">
+
+<div class="section-title">
+<h2>Music Library</h2>
+<p>Stream and download your favorite tracks</p>
+</div>
+
+<div class="music-container">
+
+<div class="song-list">
+
+<div class="song active"
+data-title="Kabuku"
+data-artist="BMC"
+data-producer="Galaxy Music - Jkabs"
+data-cover="images/ijankani.jpg"
+data-audio="music/BMC_Ka_Buku-prod-by-DJ kabs.mp3">
+
+<span>Ka Buku | Let me know you</span>
+
+</div>
+
+<div class="song">
+<span>Ija Nkani | That Story</span>
+</div>
+
+<div class="song">
+<span>Ku Wire | Avoided</span>
+</div>
+
+<div class="song">
+<span>Try Me | Niyeseko</span>
+</div>
+
+</div>
+
+<div class="player-panel">
+
+<img
+id="activeCover"
+src="images/bmc_profile.jpg">
+
+<h3 id="activeTitle">
+Kabuku | i wanna know you
+</h3>
+
+<p id="activeArtist">
+BMC
+</p>
+
+<p id="activeProducer">
+Produced by Galaxy Music- Jkabs
+</p>
+
+<div class="controls">
+
+<button id="mainPlay">
+▶ Play
+</button>
+
+<a
+id="downloadSong"
+href="music/BMC_Ka Buku-prod-by-DJ kabs [RsNmSw9xPo8].mp3.mp3"
+download>
+
+⬇ Download
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="about">
+
+<div class="section-title">
+<h2>About Galaxy Music</h2>
+</div>
+
+<p>
+Galaxy is a Zambian recording Studio
+known for it's unique sound, captivating lyrics,
+and rapidly growing influence in the music scene.
+</p>
+
+</section>
+
+<!-- VIDEOS -->
+
+
+<!-- COLLABORATION -->
+<section class="booking" id="contact">
+
+<h2>Record at Galaxy Music</h2>
+
+<p>
+Bookings, Features, Events & Brand Partnerships
+</p>
+
+<a
+href="https://wa.me/260974301161"
+target="_blank"
+class="book-btn">
+
+Chat On WhatsApp
+
+</a>
+
+</section>
+
+<!-- FOOTER -->
+<footer>
+
+<h3>Galaxy| music</h3>
+
+<p>
+Official Artist Platform
+</p>
+
+<div class="socials">
+
+<a href="#">Facebook</a>
+<a href="#">YouTube</a>
+
+</div>
+
+<p>
+© 2026 Galaxy Music All Rights Reserved.
+</p>
+
+</footer>
+
+<script src="JS/script.js"></script>
+
+</body>
+</html>

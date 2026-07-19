@@ -1,0 +1,407 @@
+*{
+
+box-sizing:border-box;
+margin:0;
+padding:0;
+
+font-family:Arial, sans-serif;
+
+}
+:root {
+  --primary:#b86d27;
+  --accent:#14191fc7;
+   --battons:#1222184f;
+  --light:#f8f9fa;
+  --text:#333;
+}
+
+
+body{
+
+background:#080808;
+color:white;
+
+}
+
+
+
+/* SIDEBAR */
+
+.sidebar{
+
+position:fixed;
+
+left:0;
+top:0;
+
+height:100vh;
+width:260px;
+
+background:
+linear-gradient(
+180deg,
+#151515,
+#050505
+);
+
+padding:30px;
+
+overflow-y:auto;
+
+}
+
+
+
+.logo{
+
+font-size:25px;
+font-weight:bold;
+
+color:var(--primary);
+
+margin-bottom:40px;
+
+}
+
+
+
+.sidebar h3{
+
+margin-bottom:20px;
+
+}
+
+
+.sidebar ul{
+
+list-style:none;
+
+}
+
+
+.sidebar li{
+
+padding:15px;
+
+border-radius:8px;
+
+cursor:pointer;
+
+transition:.3s;
+
+}
+
+
+
+.sidebar li:hover{
+
+background:#7c4dff;
+
+}
+
+
+
+
+
+/* CONTENT */
+
+.content{
+
+margin-left:260px;
+
+padding:20px;
+
+}
+
+
+
+header{
+
+height:60px;
+
+display:flex;
+
+align-items:center;
+
+gap:20px;
+
+}
+
+
+
+header input{
+
+width:400px;
+
+padding:12px;
+
+border-radius:20px;
+
+border:none;
+
+}
+
+
+
+
+
+#menuBtn{
+
+display:none;
+
+}
+
+
+
+
+
+/* HERO */
+
+
+.hero{
+
+height:450px;
+
+position:relative;
+
+overflow:hidden;
+
+border-radius:20px;
+
+}
+
+
+
+.slide{
+
+position:absolute;
+
+width:100%;
+height:100%;
+
+opacity:0;
+
+transition:1s;
+
+}
+
+
+.slide.active{
+
+opacity:1;
+
+}
+
+
+.slide img{
+
+width:100%;
+height:100%;
+
+object-fit:cover;
+
+filter:
+brightness(.45);
+
+}
+
+
+
+.hero-text{
+
+position:absolute;
+
+top:50%;
+left:50px;
+
+transform:translateY(-50%);
+
+}
+
+
+
+.hero-text h1{
+
+font-size:55px;
+
+}
+
+
+
+.hero-text button{
+
+margin-top:20px;
+
+padding:12px 30px;
+
+background:#7c4dff;
+
+color:white;
+
+border:none;
+
+border-radius:30px;
+
+}
+
+
+
+
+
+/* MUSIC CARDS */
+
+
+.music-section{
+
+margin-top:40px;
+
+}
+
+
+
+.music-grid{
+
+display:grid;
+
+grid-template-columns:
+repeat(auto-fit,minmax(220px,1fr));
+
+gap:25px;
+
+}
+
+
+
+.music-card{
+
+background:#151515;
+
+padding:20px;
+
+border-radius:15px;
+
+}
+
+/* Chrome, Edge, Opera */
+.music-grid::-webkit-scrollbar{
+    width:6px;
+}
+
+.music-grid::-webkit-scrollbar-track{
+    background:rgba(0,0,0,.04);
+    border-radius:20px;
+}
+
+.music-grid::-webkit-scrollbar-thumb{
+    background:linear-gradient(
+        to bottom,
+        #f5f5f5,
+        #c7c7c7
+    );
+    border-radius:20px;
+    border:1px solid rgba(255,255,255,.3);
+}
+
+.music-grid::-webkit-scrollbar-thumb:hover{
+    background:linear-gradient(
+        to bottom,
+        #e7e7e7,
+        #b6b5b5
+    );
+}
+
+
+
+.music-card img{
+
+width:100%;
+
+height:200px;
+
+object-fit:cover;
+
+border-radius:10px;
+
+}
+
+
+.battan-container{
+border-top: solid 1px #c76b6b;
+
+}
+
+/*==================================
+    MUSIC CARD ACTIVITY STYLES
+====================================*/
+
+.music-card.active{
+
+    border:2px solid #e98d16;
+
+    transform:translateY(-6px);
+
+    box-shadow:0 15px 40px rgba(233,141,22,.35);
+
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+
+.sidebar{
+
+transform:translateX(-100%);
+
+transition:.4s;
+
+z-index:1000;
+
+}
+
+
+.sidebar.show{
+
+transform:translateX(0);
+
+}
+
+
+.content{
+
+margin-left:0;
+
+}
+
+
+#menuBtn{
+
+display:block;
+
+background:none;
+
+color:white;
+
+border:none;
+
+font-size:25px;
+
+}
+
+
+header input{
+
+width:100%;
+
+}
+
+
+
+.hero-text h1{
+
+font-size:35px;
+
+}
+
+
+}
