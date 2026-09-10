@@ -1,15 +1,26 @@
 const songs = [
+{
+    id:8,
+    artist: "Yo maps",
+    songTitle: "It's Over",
+    artWork: "images/itsover.jpg",
+    audio: "music/It's_Over_Yo_Maps.mp3",
+    releaseDate: "2026",
+    description:"Award-winning singer – Yo Maps tags along Makhadzi Entertainment to release a brand new jam titled It's Over",
+    featuring: "Makhadzi Entertainment ",
+    downloads: 1000000
+    },
 
 {
     id: 1,
-    artist: "Jae Cash",
-    songTitle: "I Love You",
-    artWork: "images/jcashiloveyou.webp",
-    audio: "music/I Love -You - Jae- Cash.mp3",
+    artist: "Jae Cash, Dizmo & Y Cool (Apa ili so)",
+    songTitle: "Gang Affiliated (WYFL RIDDIM)",
+    artWork: "images/gang.jpg",
+    audio: "music/Gang Affiliated (WYFL RIDDIM).mp3",
     releaseDate: "2014",
-    description: "Jae Cash teams up with Assa in this beautiful love song that has captured the hearts of many Zambian music fans.",
-    featuring: "Assa",
-    downloads: 50
+    description: "Apa Ili So Entertainments rappers – Jae Cash, Dizmo & Y Cool unpack a brand new record titled 'Gang Affiliated the WYFL RIDDIM.' ",
+    featuring: "Jae Cash, Dizmo & Y Cool",
+    downloads: 40000
 },
 
 {
@@ -28,8 +39,8 @@ const songs = [
     id: 3,
     artist: "Chile One",
     songTitle: "So Lucky",
-    artWork: "images/So-Lucky.webp",
-    audio: "music/Chile-One-MrZambia-So-Lucky.mp3",
+    artWork: "images/so-lucky.webp",
+    audio: "music/So_Lucky_Chile_One.mp3",
     releaseDate: "15/03/2026",
     description: "A romantic hit from Chile One Mr Zambia that became one of the country's biggest songs.",
     featuring: "",
@@ -38,14 +49,14 @@ const songs = [
 
 {
     id: 4,
-    artist: "T-Sean",
-    songTitle: "Bless Me",
-    artWork: "images/T-Sean-Bless-Me.jpg",
-    audio: "music/T-Sean-Bless-Me.mp3",
-    releaseDate: "22/02/2026",
-    description: "T-Sean returns with another inspirational anthem full of energy and positivity.",
-    featuring: "Mr Baila",
-    downloads: 4000
+    artist: "Chile One Mr Zambia",
+    songTitle: "Destiny",
+    artWork: "images/destiny.jpg",
+    audio: "music/Chile_One_MrZambia_Destiny.mp3",
+    releaseDate: "2026",
+    description: "A self motivated hit from Chile One Mr Zambia A piece ofmusic that builds confidence and hope in every listener.",
+    featuring: "",
+    downloads: 50000
 },
 
 {
@@ -62,14 +73,14 @@ const songs = [
 
 {
     id: 5,
-    artist: "Triple M",
-    songTitle: "Gelo wabakamba",
-    artWork: "images/gelowabakamba.jpg",
-    audio: "music/triple-m-gelo-wabakamba.mp3",
-    releaseDate: "2025",
-    description: "Triple M slaps his fans with a full energy hit song.",
+    artist: "Yo Maps",
+    songTitle: "Chafina",
+    artWork: "images/itsover.jpg",
+    audio: "music/Chafina_Yo_Maps.mp3",
+    releaseDate: "2026",
+    description: "Chafina song by Yo Maps the award winning artist. Here he worked with another super talented star Muzo aka Alphonso. The song intels how royalty ends when benefits stop.",
     featuring: "",
-    downloads: 3100
+    downloads: 30000
 },
     {id:6,
     artist: "Muzo Aka Alphonso",
@@ -90,7 +101,21 @@ const songs = [
     description:" Macky 2 Tags Along Yo Maps To Release New Song Titled 'Natural' Fresh Off Olijaba Entertainments, Macky 2 Resurfaces With A Brand New Record Titled “Ni Natural”, Featuring Yo Maps. Produced By Mr Stash",
     featuring: "Yo Maps",
     downloads: 50000
+},
+    {id:7,
+    artist: "Cosmas Daka",
+    songTitle: "Chikondi  Changa",
+    artWork: "images/cosmas.webp",
+    audio: "music/Cosmas_Daka_Chikondi_Changa.mp3",
+    releaseDate: "2026",
+    description:"Cosmas Daka Drops indelible piece  of music full of attention catching relics",
+    featuring: "",
+    downloads: 50000
+
+
+
 }
+
 
 
 ];
