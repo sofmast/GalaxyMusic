@@ -17,7 +17,7 @@ const songs = [
     songTitle: "Gang Affiliated (WYFL RIDDIM)",
     artWork: "images/gang.jpg",
     audio: "music/Gang Affiliated (WYFL RIDDIM).mp3",
-    releaseDate: "2014",
+    releaseDate: "2026",
     description: "Apa Ili So Entertainments rappers – Jae Cash, Dizmo & Y Cool unpack a brand new record titled 'Gang Affiliated the WYFL RIDDIM.' ",
     featuring: "Jae Cash, Dizmo & Y Cool",
     downloads: 40000
