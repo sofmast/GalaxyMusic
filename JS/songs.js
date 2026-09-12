@@ -17,7 +17,7 @@ const songs = [
     songTitle: "Gang Affiliated (WYFL RIDDIM)",
     artWork: "images/gang.jpg",
     audio: "music/Gang Affiliated (WYFL RIDDIM).mp3",
-    releaseDate: "2026",
+    releaseDate: "2014",
     description: "Apa Ili So Entertainments rappers – Jae Cash, Dizmo & Y Cool unpack a brand new record titled 'Gang Affiliated the WYFL RIDDIM.' ",
     featuring: "Jae Cash, Dizmo & Y Cool",
     downloads: 40000
@@ -39,7 +39,7 @@ const songs = [
     id: 3,
     artist: "Chile One",
     songTitle: "So Lucky",
-    artWork: "images/So-Lucky.webp",
+    artWork: "images/so-lucky.webp",
     audio: "music/So_Lucky_Chile_One.mp3",
     releaseDate: "15/03/2026",
     description: "A romantic hit from Chile One Mr Zambia that became one of the country's biggest songs.",
@@ -61,14 +61,14 @@ const songs = [
 
 {
     id: 5,
-    artist: "Triple M",
-    songTitle: "Mwana Wanga",
-    artWork: "images/triplemmwana.jpg",
-    audio: "music/triple-m-mwana-wanga.mp3",
-    releaseDate: "2025",
-    description: "Triple M returns with another inspirational anthem full of energy and positivity.",
-    featuring: "",
-    downloads: 10200
+    artist: "Fearless",
+    songTitle: "Nalisavuka",
+    artWork: "images/nalisavuka.jpg",
+    audio: "music/Fearless_ ft_Don wise-x-Cherry_Perry_Nalisavuka_(Prod by J_Kabs).mp3",
+    releaseDate: "2026",
+    description: "Fearless returns with another contravercial piece of it's time to savuka and do the dance!.",
+    featuring: "Don wise & Cherry_Perry",
+    downloads: 1200
 },
 
 {
@@ -114,7 +114,34 @@ const songs = [
 
 
 
+},
+    {id:10,
+    artist: "Promise",
+    songTitle: "Ndakufuluka",
+    artWork: "images/ndafuluka.jpg",
+    audio: "music/Promise _ndafuluka.mp3",
+    releaseDate: "2026",
+    description:"A long standing zambian female artist aka promise ma single lady drop a new vibe on love vibes. This time she is missing the earlier stature of their relationship",
+    featuring: "",
+    downloads: 6000
+
+
+
+},
+
+{id:11,
+    artist: "Safo 70",
+    songTitle: "Iam Not your type",
+    artWork:"images/umpawi.jpg",
+    audio: "music/Safo_70_ft _Tifah_&_ JKabs_Iam_Not_your_type.mp3",
+    releaseDate:"2026",
+    description: "Safo 70 a critical thinker and real life based piece of music emerging star comes with umpawi having J kabs & Tifa",
+    downloads:725,
+
+
+
 }
+
 
 
 
