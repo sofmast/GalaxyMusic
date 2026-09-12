@@ -39,7 +39,7 @@ const songs = [
     id: 3,
     artist: "Chile One",
     songTitle: "So Lucky",
-    artWork: "images/so-lucky.webp",
+    artWork: "images/So-Lucky.webp",
     audio: "music/So_Lucky_Chile_One.mp3",
     releaseDate: "15/03/2026",
     description: "A romantic hit from Chile One Mr Zambia that became one of the country's biggest songs.",
